@@ -111,6 +111,19 @@ main {
   background: var(--paper);
 }
 
+.pitch-line {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+}
+
+.pitch-cta {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--mta-orange);
+}
+
 .location {
   background: var(--paper-dim);
 }

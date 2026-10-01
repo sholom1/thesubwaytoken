@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import CareersHero from '../components/CareersHero'
-import WhyImBuilding from '../components/WhyImBuilding'
+import WhyJoinUs from '../components/WhyJoinUs'
 import OpenRoles from '../components/OpenRoles'
 import Footer from '../components/Footer'
 
@@ -13,7 +13,7 @@ export default function CareersPage() {
     <div className="page">
       <CareersHero />
       <main>
-        <WhyImBuilding />
+        <WhyJoinUs />
         <OpenRoles />
       </main>
       <Footer />
