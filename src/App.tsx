@@ -1,19 +1,14 @@
-import Hero from './components/Hero'
-import Concept from './components/Concept'
-import Location from './components/Location'
-import ContactSignup from './components/ContactSignup'
-import Footer from './components/Footer'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomePage from './pages/HomePage'
+import CareersPage from './pages/CareersPage'
 
 export default function App() {
   return (
-    <div className="page">
-      <Hero />
-      <main>
-        <Concept />
-        <Location />
-        <ContactSignup />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/careers" element={<CareersPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
