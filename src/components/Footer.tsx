@@ -7,7 +7,8 @@ export default function Footer() {
         <Link to="/">Home</Link>
         <Link to="/careers">Careers</Link>
       </nav>
-      <p>&copy; {new Date().getFullYear()} The Subway Token · Brooklyn, NY</p>
+      <p>541 Myrtle Avenue, Brooklyn, NY 11205</p>
+      <p>&copy; {new Date().getFullYear()} The Subway Token</p>
     </footer>
   )
 }
