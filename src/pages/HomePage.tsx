@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import Hero from '../components/Hero'
 import Concept from '../components/Concept'
 import Location from '../components/Location'
+import Discord from '../components/Discord'
 import ContactSignup from '../components/ContactSignup'
 import Footer from '../components/Footer'
 
@@ -16,6 +17,7 @@ export default function HomePage() {
       <main>
         <Concept />
         <Location />
+        <Discord />
         <ContactSignup />
       </main>
       <Footer />

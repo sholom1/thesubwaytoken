@@ -1,12 +1,15 @@
 export default function Hero() {
   return (
     <header className="hero">
-      <div className="hero-bullets" aria-hidden="true">
-        <span className="bullet bullet-b">B</span>
-        <span className="bullet bullet-q">Q</span>
-      </div>
-      <h1 className="wordmark">THE SUBWAY TOKEN</h1>
-      <p className="tagline">A NYC Subway-Themed Board Game Cafe</p>
+      <img
+        className="hero-logo"
+        src="/logo.png"
+        width={512}
+        height={512}
+        alt="The Subway Token board game café logo"
+      />
+      <h1 className="wordmark">The Subway Token</h1>
+      <p className="tagline">A NYC subway-themed board game cafe</p>
       <span className="badge">Coming Soon</span>
     </header>
   )
